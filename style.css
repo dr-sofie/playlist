@@ -1,0 +1,41 @@
+/*Typography*/
+html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
+h1 {font-size: 4.0em;}
+span {font-size: 1.25em;}
+html,
+body {
+    background-image: url('bkg.jpg');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px 5px 20px;
+  margin: 60px 0px 60px 0px;
+}
+
+.trackhide {
+  padding-left: 20px;
+  display: none;
+}
+
+.trackvisible:hover + .trackhide {
+  display:inline;
+  color:orange; <!-- text color after hoovering -->
+  clear:left;
+}
+
+.tracklist {
+    background-color:black;
+    color:yellow;
+    padding: 10px;
+    opacity:0.8;
+}
+
+.track {
+    background-color: yellow);
+    color=black;
+    padding: 10px;
+}
