@@ -4,7 +4,7 @@ h1 {font-size: 4.0em;}
 span {font-size: 1.25em;}
 html,
 body {
-    background-image: url('bkg.jpg');
+    background-image: url('bkg_large.jpg');
     background-size: cover;
     background-blend-mode: lighten;
 }
